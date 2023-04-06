@@ -75,3 +75,14 @@ body {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+.contact-section {
+  background-image: url('img/contact-form-background-shapes@2x.png');
+  background-color: #6070FF;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.display-3 {
+  font-weight: 600;
+}
