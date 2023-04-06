@@ -61,3 +61,17 @@ body {
   background-color: #c1c7d0;
   display: block;
 }
+
+.logo {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #344563;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
