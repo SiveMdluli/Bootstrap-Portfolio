@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif, "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.badge {
+  background: #ebebff !important;
+  color: #6070ff !important;
+  font-weight: 100;
+}
