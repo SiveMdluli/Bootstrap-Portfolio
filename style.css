@@ -1,10 +1,18 @@
+body {
+  font-family: sans-serif, "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  background-color: #e5e5e5;
+}
+
+.badge {
+  background: #ebebff !important;
+  color: #6070ff !important;
+  font-weight: 100;
+}
+
 /* Styles for: Intro Section */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
-
-body {
-  background-color: #e5e5e5;
-  margin: 0;
-}
 
 .intro-section {
   background-image: url(img/Header\ bg.png);
