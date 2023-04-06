@@ -81,6 +81,7 @@ body {
   background-color: #6070FF;
   background-size: contain;
   background-repeat: no-repeat;
+  border-top-left-radius: 100px;
 }
 
 .display-3 {
