@@ -19,11 +19,32 @@
 <body class="container">
     <!-- Header seaction -->
     <header>
-
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <div class="container container-fluid">
+              <a class="navbar-brand text-primary logo" href="#">My logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarText">
+                <ul class="navbar-nav me-5 pe-5 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <!-- Headline Section -->
     <section id="" class="intro-section py-5 container-fluid">
+        <div class="primary-overlay text-white">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 text-center">
@@ -86,11 +107,11 @@
                     <li class="list-inline-item">
                         <span class="p-lg-2.5">CANOPY</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">Back End Dev</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">2015</span>
                     </li class="list-inline-item">
@@ -117,11 +138,11 @@
                     <li class="list-inline-item">
                         <span class="p-lg-2.5">FACEBOOK</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">Full Stack Dev</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">2015</span>
                     </li class="list-inline-item">
@@ -149,11 +170,11 @@
                     <li class="list-inline-item">
                         <span class="p-lg-2.5">FACEBOOK</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">Full Stack Dev</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">2015</span>
                     </li class="list-inline-item">
@@ -181,11 +202,11 @@
                     <li class="list-inline-item">
                         <span class="p-lg-2.5">Uber</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">Lead Developer</span>
                     </li class="list-inline-item">
-                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><span class="rounded-circle"></span></li>
                     <li class="list-inline-item">
                         <span class="text-muted p-lg-2.5">2018</span>
                     </li class="list-inline-item">
@@ -239,7 +260,45 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="row contact-section p-lg-5">
+
+        <div class="container row gap-3 ps-lg-5 pe-lg-5 ms-lg-5 me-lg-5">
+            <div class="text-center justify-content-center">
+                
+                
+            </div>
+            <div class="d-flex justify-content-around text-center">
+                <div class="col-6"  >
+                    <div class="mb-3 mt-3">
+                        <h2 class="display-3">Contact Me</h2>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <p>
+                            If you have an application you are interested in developing, 
+                            a feature that you need built or a project that needs coding. I’d love to help with it!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" d-flex justify-content-around">
+                <form class="col-5" action="" method="post">
+                    <div class="mb-3 mt-3">
+                        <label for="names" class="form-label d-none">Enter names:</label>
+                        <input type="text" class="form-control" id="names" placeholder="Enter Your Names" name="names" required>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label d-none">Enter Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label d-none">Enter Your Comments:</label>
+                        <textarea class="form-control" cols="30" rows="10" id="comment" maxlength="500" placeholder="Write your message here..." name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
 
     </section>
 
