@@ -50,3 +50,7 @@ body {
 .icons li a {
   color: #000;
 }
+
+.navbar {
+  background-color: white !important;
+}
